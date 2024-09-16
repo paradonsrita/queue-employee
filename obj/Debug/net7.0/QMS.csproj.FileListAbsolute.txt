@@ -122,3 +122,4 @@ C:\Users\Asus\Desktop\coding\C#\isocare\QueueBlazor\QMS\obj\Debug\net7.0\QMS.pdb
 C:\Users\Asus\Desktop\coding\C#\isocare\QueueBlazor\QMS\obj\Debug\net7.0\QMS.genruntimeconfig.cache
 C:\Users\Asus\Desktop\coding\C#\isocare\QueueBlazor\QMS\obj\Debug\net7.0\ref\QMS.dll
 C:\Users\Asus\Desktop\coding\C#\isocare\QueueBlazor\QMS\bin\Debug\net7.0\Blazored.LocalStorage.dll
+C:\Users\Asus\Desktop\coding\C#\isocare\QueueBlazor\QMS\obj\Debug\net7.0\QMS.sourcelink.json
