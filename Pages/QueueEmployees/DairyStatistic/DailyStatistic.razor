@@ -28,9 +28,9 @@ else if (!string.IsNullOrEmpty(error))
 else
 {
 
-    <RadzenCard Variant="Variant.Outlined">
+    <RadzenCard Variant="Variant.Outlined" Style="border-color: #c5d0d9; border-width: 2px; border-radius: 10px;">
         <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0.5rem" Wrap="FlexWrap.Wrap">
-            <RadzenCheckBox @bind-Value="@showDataLabels" Name="dataLabels"></RadzenCheckBox>
+            <RadzenCheckBox @bind-Value="@showDataLabels" Name="dataLabels" Style="border: 2px solid #c5d0d9; padding: 4px; border-radius: 5px;"></RadzenCheckBox>
             <RadzenLabel Text="Show Data Labels" Component="dataLabels" />
         </RadzenStack>
     </RadzenCard>

@@ -4,18 +4,18 @@
 
 
 <RadzenStack class="rz-p-0 rz-p-md-6 rz-p-lg-12">
-    <RadzenCard Variant="Variant.Outlined">
+    <RadzenCard Variant="Variant.Outlined"  Style=" border-width: 2px; border-radius: 10px;">
         <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Wrap="FlexWrap.Wrap">
             <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0.5rem">
-                <RadzenCheckBox @bind-Value="@smooth" Name="smooth"></RadzenCheckBox>
+                <RadzenCheckBox @bind-Value="@smooth" Name="smooth" Style="border: 2px solid #c5d0d9; padding: 4px; border-radius: 5px;"></RadzenCheckBox>
                 <RadzenLabel Text="Smooth" Component="smooth" />
             </RadzenStack>
             <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0.5rem">
-                <RadzenCheckBox @bind-Value="@showDataLabels" Name="dataLabels"></RadzenCheckBox>
+                <RadzenCheckBox @bind-Value="@showDataLabels" Name="dataLabels" Style="border: 2px solid #c5d0d9; padding: 4px; border-radius: 5px;"></RadzenCheckBox>
                 <RadzenLabel Text="Show Data Labels" Component="dataLabels" />
             </RadzenStack>
             <RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" Gap="0.5rem">
-                <RadzenCheckBox @bind-Value="@showMarkers" Name="markers"></RadzenCheckBox>
+                <RadzenCheckBox @bind-Value="@showMarkers" Name="markers" Style="border: 2px solid #c5d0d9; padding: 4px; border-radius: 5px;"></RadzenCheckBox>
                 <RadzenLabel Text="Show Markers" Component="markers" />
             </RadzenStack>
             
